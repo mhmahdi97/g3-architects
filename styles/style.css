@@ -25,7 +25,6 @@ header {
 
 .nav-title h1 {
   font-size: 45px;
-  line-height: 53px;
   color: #131313;
 }
 
@@ -39,7 +38,6 @@ header {
   list-style: none;
   font-weight: 500;
   font-size: 18px;
-  line-height: 26px;
   color: #424242;
 }
 
@@ -53,7 +51,6 @@ header {
 
 .banner-text h1 {
   font-size: 64px;
-  line-height: 75px;
   text-align: center;
   color: #131313;
   margin-bottom: 3%;
@@ -61,14 +58,12 @@ header {
 
 .banner-text p {
   color: #727272;
-  line-height: 26px;
   text-align: center;
   margin-bottom: 5%;
 }
 .primary-btn {
   font-weight: 600;
   font-size: 20px;
-  line-height: 23px;
   text-align: center;
   background-color: #ff900e;
   border: 0;
@@ -84,7 +79,6 @@ header {
 
 .banner-img-container img {
   width: 100%;
-  /* object-fit: cover; */
 }
 
 /* Styles to Main Section Area */
@@ -98,7 +92,7 @@ main {
 .quick-list-container {
   margin-top: 5%;
   margin-left: 4%;
-  margin-bottom: 8%;
+  margin-bottom: 10%;
   display: flex;
   gap: 7%;
 }
@@ -122,7 +116,6 @@ main {
 .quick-list-features h1 {
   font-weight: 700;
   font-size: 45px;
-  line-height: 53px;
   color: #131313;
   margin-bottom: 4%;
 }
@@ -139,4 +132,193 @@ main {
 
 .yellow-highlight {
   color: #ff900e;
+}
+
+/* Styles to Features Sub-section Area */
+.features-container {
+  display: flex;
+  gap: 7%;
+  padding-bottom: 3%;
+}
+
+.features-list {
+}
+
+.features-title-container {
+  padding-left: 20px;
+  border-left: 5px solid #ff900e;
+}
+
+.features-title-container h1 {
+  font-size: 44px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+
+.features-description {
+  color: #727272;
+  margin-bottom: 10px;
+}
+
+.features {
+  margin-top: 20px;
+  padding: 30px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.features h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+
+.features p {
+  color: #727272;
+}
+
+.standing-image {
+  display: flex;
+  align-items: center;
+}
+
+.image-container img {
+  width: 153%;
+}
+
+.experience-sticker {
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 17px 10px;
+  width: 176px;
+  position: absolute;
+  top: 2360px;
+  right: 330px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.experience-sticker h1 {
+  font-weight: 700;
+  font-size: 29px;
+  text-align: center;
+  color: #ffffff;
+}
+.experience-sticker p {
+  font-weight: 500;
+  font-size: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Styles to Facts Sub-section */
+.facts-container {
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.facts-description h1 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 2.5%;
+}
+
+.facts-description p {
+  color: #727272;
+  margin-bottom: 10%;
+}
+
+.facts-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.facts {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  width: 210px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.3s;
+}
+
+.facts:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.facts img {
+  margin-bottom: 10px;
+}
+.facts h1 {
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+  margin-bottom: 5px;
+}
+
+.facts p {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+
+/* Styles to Sponsors Sub-section Area */
+
+.sponsors-container {
+  margin-top: 10%;
+  margin-bottom: 16%;
+}
+
+.sponsors-description h1 {
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.sponsors-description p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  margin-bottom: 50px;
+}
+
+.sponsors-logo-container {
+  /* width: 100%;
+  height: auto; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sponsors-logo img {
+  filter: grayscale(1);
+  /* -webkit-filter: grayscale(1); */
+}
+
+.sponsors-logo img:hover {
+  filter: none;
+}
+
+footer {
+  max-width: 75%;
+  margin: 0 auto;
+  margin-bottom: 4%;
+  background-color: #fff4e7;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+footer p {
+  font-size: 20px;
+  text-align: center;
+  color: #424242;
 }
